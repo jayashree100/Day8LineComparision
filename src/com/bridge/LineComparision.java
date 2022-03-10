@@ -6,7 +6,13 @@ public class LineComparision {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("Wel Come To Line Comparision Computation");
+		//System.out.println("Wel Come To Line Comparision Computation");
+		LengthProduce input = new LengthProduce();
+		input.lengthproduce();
+		LengthCalculate cal = new LengthCalculate();
+		cal.Lengthcal();
+		CompareLength compare = new CompareLength();
+		compare.checkEquality();
 
 	}
 
