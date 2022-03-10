@@ -33,3 +33,16 @@ class LengthProduce {
 		y4 = sc.nextInt();
 	}
 }
+
+class LengthCalculate {
+	static Double length1, length2;
+
+	public void Lengthcal() {
+		length1 = Math.sqrt((LengthProduce.x2 - LengthProduce.x1) * (LengthProduce.x2 - LengthProduce.x1)
+				+ (LengthProduce.y2 - LengthProduce.y1) * (LengthProduce.y2 - LengthProduce.y1));
+		System.out.println("Length of first line = " + length1 + " units");
+		length2 = Math.sqrt((LengthProduce.x4 - LengthProduce.x3) * (LengthProduce.x4 - LengthProduce.x3)
+				+ (LengthProduce.y4 - LengthProduce.y3) * (LengthProduce.y4 - LengthProduce.y3));
+		System.out.println("Length of second line = " + length2 + " units");
+	}
+}
