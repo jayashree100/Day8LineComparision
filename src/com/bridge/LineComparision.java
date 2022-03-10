@@ -46,3 +46,15 @@ class LengthCalculate {
 		System.out.println("Length of second line = " + length2 + " units");
 	}
 }
+
+class CompareLength {
+	public void checkEquality() {
+		if (LengthCalculate.length1.compareTo(LengthCalculate.length2) == 1) {
+			System.out.println("Line1 is greater than line2 in length");
+		} else if (LengthCalculate.length1.compareTo(LengthCalculate.length2) == -1) {
+			System.out.println("Line1 is less than line2 in length");
+		} else {
+			System.out.println("Both lines are EQUAL in length");
+		}
+	}
+}
